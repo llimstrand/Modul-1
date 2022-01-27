@@ -1,14 +1,10 @@
 package main
 
-import (
-	"fmt"
-
-	"rsc.io/quote"
-)
+import "github.com/llimstrand/Modul-1/myquote"
 
 func main() {
-	fmt.Println(quote.Go())
-	fmt.Println(quote.Hello())
-	fmt.Println(quote.Glass())
-	fmt.Println(quote.Opt())
+	myquote.Glass()
+	myquote.Go()
+	myquote.Hello()
+	myquote.Opt()
 }
